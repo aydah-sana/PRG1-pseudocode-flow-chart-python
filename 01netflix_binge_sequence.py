@@ -12,6 +12,7 @@ total_minutes = total_episodes * episode_length_minutes
 total_hours = total_minutes / 60
 total_days = total_hours / 24
 
+
 # Output
 print(f"\nTo binge-watch {series_name} you need:")
 print(f"{total_hours:.1f} hours")
